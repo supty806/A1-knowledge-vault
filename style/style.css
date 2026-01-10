@@ -20,17 +20,20 @@
     gap: 34px;
     font: 16px;
 }
-.nav-items1:hover{
+
+.nav-items1:hover {
     color: #30B868;
     font: 18px;
     font-weight: bold;
 }
-.nav-items2:hover{
+
+.nav-items2:hover {
     color: #30B868;
     font: 18px;
     font-weight: bold;
 }
-.nav-items3:hover{
+
+.nav-items3:hover {
     color: #30B868;
     font: 18px;
     font-weight: bold;
@@ -53,10 +56,140 @@
     align-items: center;
     border-radius: 5px;
     border: none;
-    
+
 
 }
 
 .nav-btn:hover {
     background-color: #124b2a;
+}
+
+/* notes */
+
+.notes {
+    width: 1600px;
+    height: auto;
+    padding: 16px 120px 16px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.notes h1 {
+    font-size: 48px;
+    margin: 0%;
+
+
+}
+
+.notes p {
+    color: #627382;
+
+}
+
+/* Note boxes style  */
+.note-boxes {
+    width: 1600px;
+    height: auto;
+    padding: 16px 120px 16px 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box1 {
+    width: 322px;
+    height: 300px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+    padding: 24px;
+   
+}
+
+.box2 {
+    width: 322px;
+    height: 300px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+    padding: 24px;
+    
+}
+
+.box3 {
+    width: 322px;
+    height: 300px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+    padding: 24px;
+    
+}
+
+.box4 {
+    width: 322px;
+    height: 300px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+    padding: 24px;
+    
+}
+
+.note-logo {
+    width: 60px;
+    height: 60px;
+    background: rgba(249, 85, 85, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.note-boxes h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+}
+
+.note-boxes p {
+     color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.box1:hover{
+    background-color: #e6eded;
+    border-radius: 10px;
+}
+.box2:hover{
+    background-color: #e6eded;
+    border-radius: 10px;
+}
+.box3:hover{
+    background-color: #e6eded;
+    border-radius: 10px;
+}
+.box4:hover{
+    background-color: #e6eded;
+    border-radius: 10px;
 }
