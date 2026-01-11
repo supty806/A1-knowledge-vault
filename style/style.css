@@ -292,6 +292,7 @@
     align-items: center;
     gap: 10px;
     padding: 12px 16px 12px 16px;
+    color: #ffffff;
     background-color: #30B868;
     font-size: 16px;
     line-height: 19px;
@@ -320,7 +321,69 @@
 .img-bottom-left:hover {
     background-color: #124b2a;
 }
+
 .img-bottom-right:hover {
     background-color: #1c3928;
-    
+
+}
+
+.knowledge-section {
+    width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.knowledge-img {
+    width: 600px;
+    height: 600px;
+}
+
+.knowledge-texts {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+
+
+}
+
+.knowledge-p {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.knowledge-texts h1{
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+.knowledge-texts-p{
+color: #627382;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.check-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
