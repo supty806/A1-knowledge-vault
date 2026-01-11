@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px 16px 120px;
-    
+
 }
 
 .nav-items {
@@ -207,8 +207,8 @@
         linear-gradient(rgba(0, 25, 49, 0.7), rgba(0, 25, 49, 0.7)),
         url("../assets/hero-bg.png");
     width: 100%;
-    background-size: 100%;
-    background-position: center;
+    /* background-size: 100%;
+    background-position: center; */
     height: 800px;
     border: red solid 2px;
     display: flex;
@@ -218,7 +218,7 @@
 
 .bg-text-container {
     width: 770px;
-    height: 168px;
+    height: auto;
 }
 
 .bg-img-box h1 {
@@ -230,8 +230,6 @@
 
 .bg-img-box p {
     color: rgba(255, 255, 255, 1);
-    font-family: Inter;
-    font-style: Regular;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -259,16 +257,70 @@
     border-radius: 100px;
     background-color: white;
 }
-.circle-container h3{
+
+.circle-container h3 {
     color: #30B868;
     font-weight: 500px;
     font-size: 16px;
-    
-}
-.circle{
-    width: 16px;
-height: 16px;
-border-radius: 50px;
-background-color: #30B868;
 
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: #30B868;
+
+}
+
+.img-bottom-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.img-bottom-left {
+    width: 251px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px 12px 16px;
+    background-color: #30B868;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-bottom-right {
+    width: 251px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px 10px 14px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: white solid 2px;
+    cursor: pointer;
+}
+
+.img-bottom-left:hover {
+    background-color: #124b2a;
+}
+.img-bottom-right:hover {
+    background-color: #1c3928;
+    
 }
