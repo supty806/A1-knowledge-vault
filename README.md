@@ -1,12 +1,4 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
 
----
-
-📅 Deadline For 60 marks: 9th January, 2026 (11:59 pm ⏱️)
-
-📅 Deadline For 50 marks: 10th January, 2026 (11:59 pm ⏱️)
-
-📅 Deadline For 30 marks: Any time after 10th January.
 
 ## 🔗 Resources
 
